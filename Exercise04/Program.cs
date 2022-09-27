@@ -8,7 +8,7 @@ void PowN(int N)
     int i = 1;
     while (i <= N)
     {
-        Console.WriteLine(Math.Pow(i, 2));
+        Console.Write(" " + Math.Pow(i, 2) + " ");
         i++;
     }
 }
